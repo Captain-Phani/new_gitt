@@ -1,0 +1,46 @@
+.container{
+    text-align:center;
+    margin:0px auto;
+    width:100%;
+}
+.input-label{
+    display:block;
+    color:grey;
+    margin-bottom:3px;
+    padding-bottom:2px;
+    font-size:16px;
+    width:50%;
+    margin:0px auto;
+    margin-top:20px;
+    
+}
+#name-field{
+    width:17%;
+    padding:10px;
+    padding:5px;
+}
+#email-field{
+    width:17%;
+    padding:10px;
+    padding:5px;
+}
+#password-field{
+    width:17%;
+    padding:10px;
+    padding:5px;
+}
+.button{
+    padding:10px;
+    height:38px;
+    width:138px;
+    margin-top:20px;
+}
+#name-error{
+    color:red;
+}
+#email-error{
+    color:red;
+}
+#password-error{
+    color:red;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <title>Document</title>
+</head>
+<body class="container">
+    <div>
+        <label class="input-label">Username</label>
+        <input type="'text" placeholder="username" id="name-field" onkeyup="validateName()">
+        <p id="name-error"> </p>
+    </div>
+
+    <div>
+        <label class="input-label"> Mail</label>
+        <input type="email" placeholder="email" id="email-field" onkeyup="validateEmail()">
+        <p id="email-error"></p>
+    </div>
+    <div>
+        <label class="input-label">Password</label>
+        <input type="password" placeholder="password" id="password-field" onkeyup="validatePassword()">
+        <p id="password-error"></p>
+    </div>
+    <input type="checkbox" id="mycheck">I agree to terms and conditions<br>
+
+    <button class="button" onclick="return submit()">Login</button>
+    <script src="index.js"></script>
+</body>
+</html>
